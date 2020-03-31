@@ -1,2 +1,1 @@
-"# Django Not Paylaüçm Projesi" 
-"# Django Not Paylaüçm Projesi" 
+Django Not Payla≈üƒ±m Sitesi
