@@ -3,140 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="9b951f52-802c-48a7-a9f7-83edd561185e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/LICENSE.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/README.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/about.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/contact.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/css/animate.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/css/bootstrap.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/css/bootstrap.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/css/flexslider.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/css/icomoon.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/css/owl.carousel.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/css/owl.theme.default.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/css/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/css/style.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/css/themify-icons.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/fonts/bootstrap/glyphicons-halflings-regular.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/fonts/bootstrap/glyphicons-halflings-regular.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/fonts/bootstrap/glyphicons-halflings-regular.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/fonts/bootstrap/glyphicons-halflings-regular.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/fonts/bootstrap/glyphicons-halflings-regular.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/fonts/icomoon/icomoon.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/fonts/icomoon/icomoon.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/fonts/icomoon/icomoon.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/fonts/icomoon/icomoon.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/fonts/themify-icons/themify.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/fonts/themify-icons/themify.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/fonts/themify-icons/themify.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/fonts/themify-icons/themify.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/images/img_1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/images/img_2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/images/img_3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/images/img_4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/images/loader.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/images/loc.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/images/person_1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/images/person_2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/images/person_3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/images/slider_1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/images/slider_2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/images/slider_3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/images/staff_1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/images/staff_2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/images/staff_3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/js/bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/js/google_map.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/js/jquery.easing.1.3.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/js/jquery.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/js/jquery.waypoints.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/js/main.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/js/modernizr-2.6.2.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/js/owl.carousel.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/js/respond.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/portfolio.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/sass/_bootstrap-compass.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/sass/_bootstrap-mincer.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/sass/_bootstrap-sprockets.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/sass/bootstrap.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/sass/bootstrap/_alerts.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/sass/bootstrap/_badges.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/sass/bootstrap/_breadcrumbs.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/sass/bootstrap/_button-groups.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/sass/bootstrap/_buttons.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/sass/bootstrap/_carousel.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/sass/bootstrap/_close.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/sass/bootstrap/_code.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/sass/bootstrap/_component-animations.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/sass/bootstrap/_dropdowns.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/sass/bootstrap/_forms.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/sass/bootstrap/_glyphicons.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/sass/bootstrap/_grid.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/sass/bootstrap/_input-groups.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/sass/bootstrap/_jumbotron.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/sass/bootstrap/_labels.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/sass/bootstrap/_list-group.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/sass/bootstrap/_media.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/sass/bootstrap/_mixins.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/sass/bootstrap/_modals.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/sass/bootstrap/_navbar.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/sass/bootstrap/_navs.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/sass/bootstrap/_normalize.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/sass/bootstrap/_pager.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/sass/bootstrap/_pagination.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/sass/bootstrap/_panels.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/sass/bootstrap/_popovers.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/sass/bootstrap/_print.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/sass/bootstrap/_progress-bars.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/sass/bootstrap/_responsive-embed.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/sass/bootstrap/_responsive-utilities.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/sass/bootstrap/_scaffolding.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/sass/bootstrap/_tables.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/sass/bootstrap/_theme.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/sass/bootstrap/_thumbnails.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/sass/bootstrap/_tooltip.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/sass/bootstrap/_type.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/sass/bootstrap/_utilities.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/sass/bootstrap/_variables.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/sass/bootstrap/_wells.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/sass/bootstrap/mixins/_alerts.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/sass/bootstrap/mixins/_background-variant.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/sass/bootstrap/mixins/_border-radius.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/sass/bootstrap/mixins/_buttons.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/sass/bootstrap/mixins/_center-block.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/sass/bootstrap/mixins/_clearfix.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/sass/bootstrap/mixins/_forms.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/sass/bootstrap/mixins/_gradients.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/sass/bootstrap/mixins/_grid-framework.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/sass/bootstrap/mixins/_grid.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/sass/bootstrap/mixins/_hide-text.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/sass/bootstrap/mixins/_image.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/sass/bootstrap/mixins/_labels.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/sass/bootstrap/mixins/_list-group.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/sass/bootstrap/mixins/_nav-divider.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/sass/bootstrap/mixins/_nav-vertical-align.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/sass/bootstrap/mixins/_opacity.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/sass/bootstrap/mixins/_pagination.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/sass/bootstrap/mixins/_panels.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/sass/bootstrap/mixins/_progress-bar.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/sass/bootstrap/mixins/_reset-filter.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/sass/bootstrap/mixins/_reset-text.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/sass/bootstrap/mixins/_resize.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/sass/bootstrap/mixins/_responsive-visibility.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/sass/bootstrap/mixins/_size.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/sass/bootstrap/mixins/_tab-focus.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/sass/bootstrap/mixins/_table-row.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/sass/bootstrap/mixins/_text-emphasis.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/sass/bootstrap/mixins/_text-overflow.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/sass/bootstrap/mixins/_vendor-prefixes.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/sass/style.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/services.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/home/admin.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/home/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/home/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/note/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/note/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project2/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/project2/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/templates/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/home/templates/header.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/home/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project2/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/project2/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -157,6 +27,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="MERGE" />
   </component>
   <component name="ProjectId" id="1YxOimrjkoypPwAbwxefZzY7wQJ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -169,11 +40,12 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/note" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/home/templates" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Django\project2\home\templates" />
       <recent name="C:\Django\project2\note" />
       <recent name="C:\Django\project2\project2" />
     </key>
@@ -221,14 +93,30 @@
       <workItem from="1585657339429" duration="11976000" />
       <workItem from="1585672607076" duration="4927000" />
       <workItem from="1585761533754" duration="3270000" />
-      <workItem from="1586377881775" duration="2349000" />
+      <workItem from="1586377881775" duration="7143000" />
     </task>
+    <task id="LOCAL-00001" summary="admin panel ckeditor eklendi">
+      <created>1586381110511</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1586381110511</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="admin panel ckeditor eklendi" />
+    <option name="LAST_COMMIT_MESSAGE" value="admin panel ckeditor eklendi" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="406" y="10" key="CommitChangelistDialog2" timestamp="1586381109129">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="406" y="10" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1586381109129" />
     <state x="638" y="310" key="Github.ShareDialog" timestamp="1585679778454">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -257,9 +145,17 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="277" y="54" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1585674815342" />
+    <state x="361" y="148" key="Vcs.Push.Dialog.v2" timestamp="1586381308905">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="148" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1586381308905" />
     <state x="93" y="93" width="1350" height="638" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1585670735809">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="93" y="93" width="1350" height="638" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1536.824@0.0.1536.824" timestamp="1585670735809" />
+    <state x="580" y="331" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1586381150706">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="580" y="331" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1586381150706" />
   </component>
 </project>
