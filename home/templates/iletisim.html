@@ -1,0 +1,23 @@
+{% extends 'homebase.html' %}
+{% block title %} İletişim-{{ setting.company }} {% endblock %}
+{% block keywords %} {{ setting.keywords }} {% endblock %}
+{% block description %} {{ setting.description }} {% endblock %}
+
+{% block head %}
+    <link rel='shortcut icon' type='image/x-icon' href='{{ setting.icon.url }}' />
+{% endblock %}
+
+
+{% block slider %} {% include "slider.html" %} {% endblock %}
+
+{% block content %}
+
+    <div class="gtco-section">
+        <div class="container">
+            <div class="row">
+                {{ setting.contact |safe }}
+            </div>
+        </div>
+    </div>
+
+{% endblock %}
