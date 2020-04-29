@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9b951f52-802c-48a7-a9f7-83edd561185e" name="Default Changelist" comment="" />
+    <list default="true" id="9b951f52-802c-48a7-a9f7-83edd561185e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -90,7 +92,8 @@
       <workItem from="1586533916744" duration="894000" />
       <workItem from="1587216524618" duration="392000" />
       <workItem from="1587477591582" duration="614000" />
-      <workItem from="1588185767907" duration="2314000" />
+      <workItem from="1588185767907" duration="2484000" />
+      <workItem from="1588188282743" duration="248000" />
     </task>
     <task id="LOCAL-00001" summary="admin panel ckeditor eklendi">
       <created>1586381110511</created>
@@ -113,7 +116,21 @@
       <option name="project" value="LOCAL" />
       <updated>1588188084562</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="hakkımızda referanslar iletişim sayfaları eklendi">
+      <created>1588188104520</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1588188104520</updated>
+    </task>
+    <task id="LOCAL-00005" summary="hakkımızda referanslar iletişim sayfaları eklendi">
+      <created>1588188188682</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1588188188682</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -125,15 +142,15 @@
     <option name="LAST_COMMIT_MESSAGE" value="hakkımızda referanslar iletişim sayfaları eklendi" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="447" y="110" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1588188010135">
+    <state x="447" y="110" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1588188478543">
       <screen x="0" y="40" width="1536" height="824" />
     </state>
-    <state x="447" y="110" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.40.1536.824@0.40.1536.824" timestamp="1588188010135" />
-    <state x="771" y="61" key="CommitChangelistDialog2" timestamp="1588188110653">
+    <state x="447" y="110" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.40.1536.824@0.40.1536.824" timestamp="1588188478543" />
+    <state x="771" y="61" key="CommitChangelistDialog2" timestamp="1588188188000">
       <screen x="0" y="40" width="1536" height="824" />
     </state>
     <state x="406" y="10" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1586386025263" />
-    <state x="771" y="61" key="CommitChangelistDialog2/0.40.1536.824@0.40.1536.824" timestamp="1588188110653" />
+    <state x="771" y="61" key="CommitChangelistDialog2/0.40.1536.824@0.40.1536.824" timestamp="1588188188000" />
     <state x="638" y="310" key="Github.ShareDialog" timestamp="1585679778454">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -162,19 +179,19 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="277" y="54" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1585674815342" />
-    <state x="361" y="188" key="Vcs.Push.Dialog.v2" timestamp="1588188181217">
+    <state x="361" y="188" key="Vcs.Push.Dialog.v2" timestamp="1588188513437">
       <screen x="0" y="40" width="1536" height="824" />
     </state>
     <state x="361" y="148" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1586386047477" />
-    <state x="361" y="188" key="Vcs.Push.Dialog.v2/0.40.1536.824@0.40.1536.824" timestamp="1588188181217" />
+    <state x="361" y="188" key="Vcs.Push.Dialog.v2/0.40.1536.824@0.40.1536.824" timestamp="1588188513437" />
     <state x="93" y="93" width="1350" height="638" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1585670735809">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="93" y="93" width="1350" height="638" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1536.824@0.0.1536.824" timestamp="1585670735809" />
-    <state x="580" y="371" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1588188025656">
+    <state x="580" y="371" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1588188471915">
       <screen x="0" y="40" width="1536" height="824" />
     </state>
     <state x="580" y="331" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1586386058467" />
-    <state x="580" y="371" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.40.1536.824@0.40.1536.824" timestamp="1588188025656" />
+    <state x="580" y="371" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.40.1536.824@0.40.1536.824" timestamp="1588188471915" />
   </component>
 </project>
