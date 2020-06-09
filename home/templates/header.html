@@ -1,32 +1,90 @@
-{% load static %}
-<header>
-    <nav class="gtco-nav" role="navigation">
-			<div class="gtco-container">
+    {% load static %}
+<!-- Header !-->
+    <header>
+        <nav class="gtco-nav" role="navigation">
+                <div class="gtco-container">
+                    <div class="row">
+                        <div class="col-sm-2 col-xs-12 col-md-4">
+                            <div id="gtco-logo"><a href="index.html">Not Paylaşım</a> </div>
+                        </div>
+                        <div class="col-xs-10 col-md-8 text-right menu-1">
+                            <ul>
+                                <li class="active"><a href="/">Anasayfa</a></li>
+                                <li><a href="/hakkimizda">Hakkımızda</a></li>
 
-				<div class="row">
-					<div class="col-sm-2 col-xs-12">
-						<div id="gtco-logo"><a href="index.html">Not Paylaşım</div>
-					</div>
-					<div class="col-xs-10 text-right menu-1">
-						<ul>
-							<li class="active"><a href="/">Anasayfa</a></li>
-							<li><a href="/hakkimizda">Hakkımızda</a></li>
-							<li class="has-dropdown">
-								<a href="services.html">Notlar</a>
-								<ul class="dropdown">
-									<li><a href="#">Web Design</a></li>
-									<li><a href="#">eCommerce</a></li>
-									<li><a href="#">Branding</a></li>
-									<li><a href="#">API</a></li>
-								</ul>
-							</li>
+                                <li class="has-dropdown">
+                                    <a href="#">Notlar</a>
+                                    <ul class="dropdown">
+                                        {% load mptt_tags %}
+                                        {% recursetree category %}
+                                            <li>
+                                                <a href="/category/{{node.id}}/{{node.slug}}">{{ node.title }}</a>
+                                                {% if not node.is_leaf_node %}
+                                                    <ul class="list-links">
+                                                        <li><a href="/category/{{ node.id }}/{{ node.slug }}">{{ children }}</a></li>
+                                                    </ul>
+                                                {% endif %}
+                                            </li>
+                                        {% endrecursetree %}
+                                    </ul>
+                                </li>
+                                <li><a href="/referanslar">Referanslar</a></li>
+                                <li><a href="/iletisim">İletişim</a></li>
+                                <li><a href="/sss">SSS</a></li>
+                                <li class="has-dropdown">
+                                    {% if user.id is not None %}
+                                     
+                                    <a href="#">{{ user.first_name }}</a>
+                                        <ul class="dropdown">
+                                        <li><a href="/user"><i></i>Hesap Bilgilerim</a> </li>
+                                        <li><a href="/user/notes"><i></i>Notlarım</a> </li>
+                                        <li><a href="/logout"><i></i>Çıkış</a> </li>
+                                    </ul>
+                                    {% else %}
+                                    <a href="/login" >Login</a>/<a href="/signup" >Join</a>
+                                    {% endif %}
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </nav>
 
-							<li><a href="/referanslar">Referanslar</a></li>
-							<li><a href="/iletisim">İletişim</a></li>
-						</ul>
-					</div>
-				</div>
+            <script>
+                $(function () {
+                    $("#query").autocomplete({
+                        source: "/search_auto/",
+                        select: function (event,ui) {//item selected
+                            AutoCompleteSelectHandler(event,ui)
+                        },
+                        minLength:2,
+                    });
+                });
+                function AutoCompleteSelectHandler(event,ui)
+                {
+                    var selectedObj = ui.item;
+                }
+            </script>
 
-			</div>
-		</nav>
-</header>
+                    <div style=" margin-right: 50px; margin-left: 200px">
+                        <form  action="/search/" method="post" >
+                            {% csrf_token %}
+                            <input id="query" name="query"  type="text" placeholder="Arama" required>
+                            {% load mptt_tags %}
+                            <select style="float: left" name="catid" class="input search-categories">
+                                <option value="0">All Categories</option>
+                                {% recursetree category %}
+                                    {% if node.is_leaf_node %}
+                                    <option value="{{ node.id }}">{{ node.title }}</option>
+                                    {% endif %}
+                                    {% if not node.is_leaf_node %}
+                                    <optgroup label="{{ node.title }}">
+                                        {{ children }}
+                                    </optgroup>
+                                    {% endif %}
+                                {% endrecursetree %}
+                            </select>
+                            <button type="submit">ARA</button>
+                        </form>
+                    </div>
+    </header>

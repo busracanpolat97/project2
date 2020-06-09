@@ -3,30 +3,22 @@
 			<div class="row">
 				<div class="col-md-12">
 					<div class="owl-carousel owl-carousel-fullwidth">
-						<div class="item">
-							<a href="#">
-								<img src="{% static 'images/slider_1.jpg'%} " alt="Free Website Template by FreeHTML5.co">
+
+                        {% for rs in sliderdata %}
+						<div class="item" {% if count == 0 %} active {% endif %} style="height: 400px; width: 500px; margin: auto">
+							<a href="/note/{{ rs.id }}/{{ rs.slug }}">
+								<img src="{{rs.image.url}}" alt="" style="">
 								<div class="slider-copy">
-									<h2>Architecture #1</h2>
+									<h2 >{{ rs.title }} </h2>
+                                    <h3 class="white-color font weak">{{ rs.description }}</h3>
+                                    <a href="/note/{{ rs.id }}/{{ rs.slug }}" ></a>
+
 								</div>
 							</a>
 						</div>
-						<div class="item">
-							<a href="#">
-								<img src="{% static 'images/slider_2.jpg'%} " alt="Free Website Template by FreeHTML5.co">
-								<div class="slider-copy">
-									<h2>Architecture #1</h2>
-								</div>
-							</a>
-						</div>
-						<div class="item">
-							<a href="#">
-								<img src="{% static 'images/slider_3.jpg'%} " alt="Free Website Template by FreeHTML5.co">
-								<div class="slider-copy">
-									<h2>Architecture #1</h2>
-								</div>
-							</a>
-						</div>
+                        {% endfor %}
+
+
 					</div>
 				</div>
 			</div>

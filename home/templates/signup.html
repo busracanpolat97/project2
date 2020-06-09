@@ -1,5 +1,5 @@
 {% extends 'homebase.html' %}
-{% block title %} İletişim-{{ setting.company }} {% endblock %}
+{% block title %} Sign Up {% endblock %}
 {% block keywords %} {{ setting.keywords }} {% endblock %}
 {% block description %} {{ setting.description }} {% endblock %}
 
@@ -12,22 +12,15 @@
 
 {% block content %}
 
-    <div id="breadcrumb">
-		<div class="container">
-			<ul class="breadcrumb">
-                <li class="active">
-						<h2>İletişim Formu</h2>
-			</ul>
-        </div>
-    </div>
+
 
     <div class="section">
         <div class="container">
             <div class="row">
-                <div class="col-md-4">
+                <div class="col-md-12">
                     <div class="billing-details">
                         <div class="section-title">
-                            <h3 class="title">İletişim Formu</h3>
+                            <h3 class="title">Sign Up</h3>
                         </div>
                         {% if messages %}
                             {% for message in messages %}
@@ -36,19 +29,25 @@
                                 </div>
                             {% endfor %}
                         {% endif %}
-                        <form action="" method="post">
+                        <form method="post">
                             {% csrf_token %}
-                            {{ form.as_p }}
-                            <input type="submit" value="SEND FORM">
+                            {% for field in form %}
+                                <p>
+                                    {{ field.label_tag }} <br>
+                                    {{ field }}
+                                    {% if field.help_text %}
+                                        <small style="color: grey">{{ field.help_text }}</small>
+                                    {% endif %}
+                                {% for error in field.errors %}
+                                    <p style="color:red">{{ error }}</p>
+                                {% endfor %}
+                                </p>
+                            {% endfor %}
+                            <button type="submit">Sign Up</button>
                         </form>
                     </div>
                 </div>
-                <div class="col-md-8">
-                    <div class="section-title">
-                        <h3 class="title"> İletişim Bilgilerimiz</h3>
-                    </div>
-                    {{ setting.contact|safe }}
-                </div>
+
             </div>
         </div>
     </div>

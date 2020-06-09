@@ -1,0 +1,94 @@
+{% extends 'homebase.html' %}
+{% block title %}{{ profile.user_name }} {% endblock %}
+{% block keywords %} {{ setting.keywords }} {% endblock %}
+{% block description %} {{ setting.description }} {% endblock %}
+
+{% block head %}
+    <link rel='shortcut icon' type='image/x-icon' href='{{ setting.icon.url }}' />
+{% endblock %}
+
+
+{% block slider %} {% include "slider.html" %} {% endblock %}
+
+{% block content %}
+
+    <div id="breadcrumb">
+		<div class="container">
+			<ul class="breadcrumb">
+                <li class="active">
+						<h2>User Profile</h2>
+			</ul>
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    {% include "user_panel.html" %}
+                </div>
+                <div class="col-md-9">
+                    <div class="section-title">
+                        <h4 class="title"> User Information </h4>
+                    </div>
+                    {% if messages %}
+                        {% for message in messages %}
+                            <div style="color: #d43f3a; font-size: medium">
+                                {{ message|safe }}
+                            </div>
+                        {% endfor %}
+                    {% endif %}
+
+                    <table class="table">
+                        <thead>
+                        <tr>
+
+                            <th class="text-left">
+                                <a href="/user/update" class="button">Profil Güncelle</a>
+                                <a href="/user/password" class="button">Şifre Değiştir </a>
+                            </th>
+
+                            <th class="text-center"></th>
+                            <td class="fa-thumb-tack"><img style="width: 75%" src="{{ profile.image.url }}"></td>
+                            <tr>
+                                <th class="text-center">Name-Surname</th>
+                                <th class="text-center">{{profile.user.first_name}}</th>
+
+                            </tr>
+
+                            <tr>
+                                <th class="text-center">E-mail</th>
+                                <th class="text-center">{{profile.user.email}}</th>
+                            </tr>
+
+                            <tr>
+                                <th class="text-center">Phone</th>
+                                <th class="text-center">{{profile.phone}}</th>
+                            </tr>
+
+                            <tr>
+                                <th class="text-center">Address</th>
+                                <th class="text-center">{{profile.address}}</th>
+                            </tr>
+
+                            <tr>
+                                <th class="text-center">City</th>
+                                <th class="text-center">{{profile.city}}</th>
+                            </tr>
+
+                            <tr>
+                                <th class="text-center">Country</th>
+                                <th class="text-center">{{profile.country}}</th>
+                            </tr>
+
+                        </tr>
+                        </thead>
+
+                    </table>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+{% endblock %}

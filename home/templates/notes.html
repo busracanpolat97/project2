@@ -1,0 +1,37 @@
+{% extends 'homebase.html' %}
+{% block title %}{{ categorydata.title }}Products{% endblock %}
+{% block keywords %} {{ categorydata.keywords }}Products {% endblock %}
+{% block description %} {{ categorydata.description }}Products {% endblock %}
+
+{% block head %}
+    <link rel='shortcut icon' type='image/x-icon' href='{{ setting.icon.url }}' />
+{% endblock %}
+
+
+{% block slider %} {% include "slider.html" %} {% endblock %}
+
+{% block content %}
+
+    <div class="gtco-section">
+        <div class="container">
+            <div class="row">
+            {% for rs in notes %}
+					<div class="col-md-12">
+						<div >
+							<div class="item">
+								<div class="gtco-item">
+                                    <h3><a href="/note/{{ rs.id }}/{{ rs.slug }}"></a></h3>
+									<a href="/note/{{ rs.id }}/{{ rs.slug }}"><img src="{{ rs.image.url }}" alt="" class="img-responsive"></a>
+									<h2><a href="#">{{rs.description}}</a></h2>
+									<p class="role">{{ rs.title }}k</p>
+								</div>
+							</div>
+
+						</div>
+					</div>
+            {% endfor %}
+				</div>
+        </div>
+    </div>
+
+{% endblock %}

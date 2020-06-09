@@ -1,0 +1,43 @@
+{% extends 'homebase.html' %}
+{% block title %} Note Search Results {% endblock %}
+{% block keywords %} {{ categorydata.keywords }} {% endblock %}
+{% block description %} {{ categorydata.description }} {% endblock %}
+
+{% block head %}
+    <link rel='shortcut icon' type='image/x-icon' href='{{ setting.icon.url }}' />
+{% endblock %}
+
+
+{% block content %}
+
+    <div class="gtco-section">
+        <div class="container">
+            <div class="row">
+                {{ setting.aboutus |safe }}
+            </div>
+        </div>
+    </div>
+
+    <div class="gtco-section">
+        <div class="container">
+            <div class="row">
+                <table cellpadding="3" width="1200">
+                    <tr>
+                        <th>Image</th>
+                        <th>Note Name</th>
+                        <th>Category</th>
+                    </tr>
+                    {% for rs in notes %}
+                        <tr>
+                        <td><a href="/note/{{ rs.id }}/{{ rs.slug }}"><img src="{{ rs.image.url }}" style=""></a></td>
+                        <td><h4 class=""><a href="/note/{{ rs.id }}/{{ rs.slug }}">{{ rs.title }}</a></h4></td>
+                        <td><a href="/category/{{ rs.category.id }}/{{ rs.category.slug }}"></a> </td>
+                        </tr>
+                    {% endfor %}
+                </table>
+            </div>
+        </div>
+    </div>
+
++
+{% endblock %}

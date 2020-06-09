@@ -612,8 +612,12 @@ h1, h2, h3, h4, h5, h6, figure {
 	float: left;
 	width: 100%;
 	display: block;
+	height:auto;
+ 	margin: 30px;
 	@media screen and (max-width: $screen-sm) {
 		margin-bottom: 3em;
+		height: auto;
+    	margin: 20px;
 	}
 	img {
 		margin-bottom: 40px!important;
